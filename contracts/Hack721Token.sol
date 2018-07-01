@@ -12,9 +12,7 @@ contract Hack721Token is ERC721Token("Hack721Token", "HTK") {
 	mapping(uint256 => uint) internal tokenIdToTime;
 	mapping(uint256 => address) internal tokenIdToAddress;
 
-	//address id_destinatire;
-
-	function create(string name, bool solidaire,  string achievment, string plateforme, uint time) public {
+	function create(string name, bool solidaire,  string achievment, string plateforme) public {
 		require(nameToTokenId[name] == 0);
 		uint256 tokenId = allTokens.length + 1;
 		_mint(msg.sender, tokenId);
