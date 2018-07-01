@@ -13,7 +13,7 @@ module.exports = async function(callback){
         var amount_to_unlock =  3;
         console.log('CareGame address : ',caregame.address);
         console.log('ERC 721 Token address : ', token.address);
-        /*
+        
         console.log("Firstly, we create our CareGame contract ");
         await caregame.create(erc_721_token_address, cause, Joueur, amount_to_unlock);
         console.log('We have created a CareGame contract');
@@ -29,7 +29,7 @@ module.exports = async function(callback){
         console.log('Achievement 4 created');
         await token.create("Joueur 5", true, "To kill all player", "XBOX ONE");
         console.log('Achievement 5 created');
-        */
+
         console.log("Thirdly we transfer Achievements : ");
         const tokenId1 = await token.getTokenId("Joueur 1");
         console.log('Token id 1 : ',tokenId1);
