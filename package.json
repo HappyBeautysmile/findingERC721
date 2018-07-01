@@ -1,0 +1,30 @@
+{
+  "name": "hack721",
+  "version": "1.0.0",
+  "description": "ERC721 standard",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "dotenv": "^5.0.1",
+    "ethereumjs-wallet": "^0.6.0",
+    "truffle-wallet-provider": "0.0.5",
+    "zeppelin-solidity": "^1.8.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxgfr/hack721.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/maxgfr/hack721/issues"
+  },
+  "homepage": "https://github.com/maxgfr/hack721#readme"
+}
