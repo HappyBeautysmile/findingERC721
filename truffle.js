@@ -3,6 +3,8 @@ require('babel-register');
 require('babel-polyfill');
 
 const HDWalletProvider = require('truffle-hdwallet-provider');
+const Web3 = require("web3");
+const web3 = new Web3();
 
 const providerWithMnemonic = (mnemonic, rpcEndpoint) =>
   new HDWalletProvider(mnemonic, rpcEndpoint);
@@ -26,13 +28,15 @@ module.exports = {
     ropsten: {
       provider: ropstenProvider,
       network_id: 3, // eslint-disable-line camelcase
+      gas: 4600000,
+      gasPrice: web3.toWei("20", "gwei"),
     },
     coverage: {
       host: 'localhost',
       network_id: '*', // eslint-disable-line camelcase
       port: 8555,
-      gas: 0xfffffffffff,
-      gasPrice: 0x01,
+      gas: 4600000,
+      gasPrice: web3.toWei("20", "gwei"),
     },
     ganache: {
       host: 'localhost',
