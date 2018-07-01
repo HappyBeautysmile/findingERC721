@@ -24,4 +24,6 @@ contract CareGame is Ownable {
             receiver.transfer(ethAmount);
         }
     }
+
+    function () public payable {}
 }
