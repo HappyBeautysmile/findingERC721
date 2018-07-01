@@ -12,16 +12,16 @@ contract CareGame is Ownable {
     address receiver;
     uint amountToUnlock;
 
-    constructor(address addr, address p_receiver, uint p_ethAmount, uint p_amountToUnlock) {
+    function create (address addr, address p_receiver, uint p_ethAmount, uint p_amountToUnlock) public {
         token = Hack721Token(addr);
         receiver = p_receiver;
         ethAmount = p_ethAmount;
         amountToUnlock = p_amountToUnlock;
     }
 
-    function checkAchievements() {
-        if (token.balanceOf(this.address) >= p_amountToUnlock) {
-            receiver.send(ethAmount);
+    function checkAchievements() public {
+        if (token.balanceOf(address(this)) >= amountToUnlock) {
+            receiver.transfer(ethAmount);
         }
     }
 }
