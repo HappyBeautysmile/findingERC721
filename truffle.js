@@ -6,9 +6,14 @@ const Wallet = require('ethereumjs-wallet');
 
 module.exports = {
 	networks: {
+        development: {
+          host: "localhost",
+          port: 8545,
+          network_id: "*" // Match any network id
+        },
 		ropsten: {
 		    provider: function(){
-		    	var ropstenPrivateKey = new Buffer(process.env["ROPSTEN_PRIVATE_KEY"], "hex")
+		    	var ropstenPrivateKey = new Buffer(process.env.ROPSTEN_PRIVATE_KEY, "hex")
 				var ropstenWallet = Wallet.fromPrivateKey(ropstenPrivateKey);
 		    	return new WalletProvider(ropstenWallet, "https://ropsten.infura.io/");
 		    },
