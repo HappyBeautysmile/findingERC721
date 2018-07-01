@@ -6,7 +6,11 @@
   "directories": {
     "test": "test"
   },
-  "dependencies": {},
+  "dependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-register": "^6.26.0",
+    "truffle-hdwallet-provider": "0.0.5"
+  },
   "devDependencies": {
     "dotenv": "^5.0.1",
     "ethereumjs-wallet": "^0.6.0",

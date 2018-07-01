@@ -1,25 +1,43 @@
-require('dotenv').config({path: '.env.local'});
-const Web3 = require("web3");
-const web3 = new Web3();
-const WalletProvider = require("truffle-wallet-provider");
-const Wallet = require('ethereumjs-wallet');
+require('dotenv').config();
+require('babel-register');
+require('babel-polyfill');
+
+const HDWalletProvider = require('truffle-hdwallet-provider');
+
+const providerWithMnemonic = (mnemonic, rpcEndpoint) =>
+  new HDWalletProvider(mnemonic, rpcEndpoint);
+
+const infuraProvider = network => providerWithMnemonic(
+  process.env.MNEMONIC || '',
+  `https://${network}.infura.io/${process.env.INFURA_API_KEY}`
+);
+
+const ropstenProvider = process.env.SOLIDITY_COVERAGE
+  ? undefined
+  : infuraProvider('ropsten');
 
 module.exports = {
-	networks: {
-        development: {
-          host: "localhost",
-          port: 8545,
-          network_id: "*" // Match any network id
-        },
-		ropsten: {
-		    provider: function(){
-		    	var ropstenPrivateKey = new Buffer(process.env.ROPSTEN_PRIVATE_KEY, "hex")
-				var ropstenWallet = Wallet.fromPrivateKey(ropstenPrivateKey);
-		    	return new WalletProvider(ropstenWallet, "https://ropsten.infura.io/");
-		    },
-		    gas: 4600000,
-	      	gasPrice: web3.toWei("20", "gwei"),
-		    network_id: '3',
-		}
-	}
+  networks: {
+    development: {
+      host: 'localhost',
+      port: 8545,
+      network_id: '*', // eslint-disable-line camelcase
+    },
+    ropsten: {
+      provider: ropstenProvider,
+      network_id: 3, // eslint-disable-line camelcase
+    },
+    coverage: {
+      host: 'localhost',
+      network_id: '*', // eslint-disable-line camelcase
+      port: 8555,
+      gas: 0xfffffffffff,
+      gasPrice: 0x01,
+    },
+    ganache: {
+      host: 'localhost',
+      port: 8545,
+      network_id: '*', // eslint-disable-line camelcase
+    },
+  },
 };
