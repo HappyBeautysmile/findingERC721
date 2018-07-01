@@ -4,6 +4,7 @@ var Hack721Token = artifacts.require("Hack721Token.sol");
 module.exports = async function(callback){
     try {
         var token = await Hack721Token.deployed();
+        var caregame = await CareGame.deployed();
         console.log("Thirdly we transfer Achievements : ");
         const tokenId1 = await token.getTokenId("Joueur 1");
         console.log('Token id 1 : ',tokenId1);

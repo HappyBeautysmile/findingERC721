@@ -5,7 +5,7 @@ ERC721 standard
 
 truffle migrate --network ropsten --reset
 
-cd script;
+cd script
 
 truffle exec caregame_contract.js --network ropsten
 
