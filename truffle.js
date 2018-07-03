@@ -29,14 +29,14 @@ module.exports = {
       provider: ropstenProvider,
       network_id: 3, // eslint-disable-line camelcase
       gas: 4600000,
-      gasPrice: web3.toWei("50", "gwei"),
+      gasPrice: web3.toWei("30", "gwei"),
     },
     coverage: {
       host: 'localhost',
       network_id: '*', // eslint-disable-line camelcase
       port: 8555,
       gas: 4600000,
-      gasPrice: web3.toWei("50", "gwei"),
+      gasPrice: web3.toWei("30", "gwei"),
     },
     ganache: {
       host: 'localhost',
