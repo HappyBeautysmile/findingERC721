@@ -108,8 +108,8 @@
       "type": "function"
     }
   ],
-  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610668806100536000396000f30060806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063715018a61461006f5780638da5cb5b14610086578063d5c44c69146100dd578063e95bb41b14610154578063f2fde38b1461016b575b005b34801561007b57600080fd5b506100846101ae565b005b34801561009257600080fd5b5061009b6102b0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100e957600080fd5b50610152600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803590602001909291905050506102d5565b005b34801561016057600080fd5b5061016961036b565b005b34801561017757600080fd5b506101ac600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104db565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561020957600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167ff8df31144d9c2f0f6b59d69b8b98abd5459d07f2742c4df920b25aae33c6482060405160405180910390a260008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b83600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555082600360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550816002819055508060048190555050505050565b600454600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166370a08231306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b15801561042b57600080fd5b505af115801561043f573d6000803e3d6000fd5b505050506040513d602081101561045557600080fd5b81019080805190602001909291905050501015156104d957600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6002549081150290604051600060405180830381858888f193505050501580156104d7573d6000803e3d6000fd5b505b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561053657600080fd5b61053f81610542565b50565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561057e57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505600a165627a7a72305820af13dff4d4e03cc4af2a92348ab127d101250ed49e90a34adba58a2aa75f7eda0029",
-  "deployedBytecode": "0x60806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063715018a61461006f5780638da5cb5b14610086578063d5c44c69146100dd578063e95bb41b14610154578063f2fde38b1461016b575b005b34801561007b57600080fd5b506100846101ae565b005b34801561009257600080fd5b5061009b6102b0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100e957600080fd5b50610152600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803590602001909291905050506102d5565b005b34801561016057600080fd5b5061016961036b565b005b34801561017757600080fd5b506101ac600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104db565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561020957600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167ff8df31144d9c2f0f6b59d69b8b98abd5459d07f2742c4df920b25aae33c6482060405160405180910390a260008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b83600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555082600360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550816002819055508060048190555050505050565b600454600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166370a08231306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b15801561042b57600080fd5b505af115801561043f573d6000803e3d6000fd5b505050506040513d602081101561045557600080fd5b81019080805190602001909291905050501015156104d957600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6002549081150290604051600060405180830381858888f193505050501580156104d7573d6000803e3d6000fd5b505b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561053657600080fd5b61053f81610542565b50565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561057e57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505600a165627a7a72305820af13dff4d4e03cc4af2a92348ab127d101250ed49e90a34adba58a2aa75f7eda0029",
+  "bytecode": "0x6080604052336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550610668806100536000396000f30060806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063715018a61461006f5780638da5cb5b14610086578063d5c44c69146100dd578063e95bb41b14610154578063f2fde38b1461016b575b005b34801561007b57600080fd5b506100846101ae565b005b34801561009257600080fd5b5061009b6102b0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100e957600080fd5b50610152600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803590602001909291905050506102d5565b005b34801561016057600080fd5b5061016961036b565b005b34801561017757600080fd5b506101ac600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104db565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561020957600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167ff8df31144d9c2f0f6b59d69b8b98abd5459d07f2742c4df920b25aae33c6482060405160405180910390a260008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b83600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555082600360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550816002819055508060048190555050505050565b600454600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166370a08231306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b15801561042b57600080fd5b505af115801561043f573d6000803e3d6000fd5b505050506040513d602081101561045557600080fd5b81019080805190602001909291905050501015156104d957600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6002549081150290604051600060405180830381858888f193505050501580156104d7573d6000803e3d6000fd5b505b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561053657600080fd5b61053f81610542565b50565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561057e57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505600a165627a7a723058203ec603ccd06b1863ba41fa4d2eb670c0f52310e5261ca8a6a4c2acb29ffa58ce0029",
+  "deployedBytecode": "0x60806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063715018a61461006f5780638da5cb5b14610086578063d5c44c69146100dd578063e95bb41b14610154578063f2fde38b1461016b575b005b34801561007b57600080fd5b506100846101ae565b005b34801561009257600080fd5b5061009b6102b0565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100e957600080fd5b50610152600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190803573ffffffffffffffffffffffffffffffffffffffff16906020019092919080359060200190929190803590602001909291905050506102d5565b005b34801561016057600080fd5b5061016961036b565b005b34801561017757600080fd5b506101ac600480360381019080803573ffffffffffffffffffffffffffffffffffffffff1690602001909291905050506104db565b005b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561020957600080fd5b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167ff8df31144d9c2f0f6b59d69b8b98abd5459d07f2742c4df920b25aae33c6482060405160405180910390a260008060006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b83600160006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555082600360006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550816002819055508060048190555050505050565b600454600160009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166370a08231306040518263ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001915050602060405180830381600087803b15801561042b57600080fd5b505af115801561043f573d6000803e3d6000fd5b505050506040513d602081101561045557600080fd5b81019080805190602001909291905050501015156104d957600360009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6002549081150290604051600060405180830381858888f193505050501580156104d7573d6000803e3d6000fd5b505b565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614151561053657600080fd5b61053f81610542565b50565b600073ffffffffffffffffffffffffffffffffffffffff168173ffffffffffffffffffffffffffffffffffffffff161415151561057e57600080fd5b8073ffffffffffffffffffffffffffffffffffffffff166000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff167f8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e060405160405180910390a3806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550505600a165627a7a723058203ec603ccd06b1863ba41fa4d2eb670c0f52310e5261ca8a6a4c2acb29ffa58ce0029",
   "sourceMap": "339:579:0:-;;;575:10:2;567:5;;:18;;;;;;;;;;;;;;;;;;339:579:0;;;;;;",
   "deployedSourceMap": "339:579:0:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;1001:111:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1001:111:2;;;;;;238:20;;8:9:-1;5:2;;;30:1;27;20:12;5:2;238:20:2;;;;;;;;;;;;;;;;;;;;;;;;;;;467:249:0;;8:9:-1;5:2;;;30:1;27;20:12;5:2;467:249:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;722:159;;8:9:-1;5:2;;;30:1;27;20:12;5:2;722:159:0;;;;;;1274:103:2;;8:9:-1;5:2;;;30:1;27;20:12;5:2;1274:103:2;;;;;;;;;;;;;;;;;;;;;;;;;;;;1001:111;719:5;;;;;;;;;;;705:19;;:10;:19;;;697:28;;;;;;;;1077:5;;;;;;;;;;;1058:25;;;;;;;;;;;;1105:1;1089:5;;:18;;;;;;;;;;;;;;;;;;1001:111::o;238:20::-;;;;;;;;;;;;;:::o;467:249:0:-;597:4;576:5;;:26;;;;;;;;;;;;;;;;;;623:10;612:8;;:21;;;;;;;;;;;;;;;;;;655:11;643:9;:23;;;;693:16;676:14;:33;;;;467:249;;;;:::o;722:159::-;806:14;;772:5;;;;;;;;;;;:15;;;796:4;772:30;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;772:30:0;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;772:30:0;;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;772:30:0;;;;;;;;;;;;;;;;:48;;768:107;;;836:8;;;;;;;;;;;:17;;:28;854:9;;836:28;;;;;;;;;;;;;;;;;;;;;;;;8:9:-1;5:2;;;45:16;42:1;39;24:38;77:16;74:1;67:27;5:2;836:28:0;768:107;722:159::o;1274:103:2:-;719:5;;;;;;;;;;;705:19;;:10;:19;;;697:28;;;;;;;;1343:29;1362:9;1343:18;:29::i;:::-;1274:103;:::o;1512:171::-;1603:1;1582:23;;:9;:23;;;;1574:32;;;;;;;;1645:9;1617:38;;1638:5;;;;;;;;;;;1617:38;;;;;;;;;;;;1669:9;1661:5;;:17;;;;;;;;;;;;;;;;;;1512:171;:::o",
   "source": "pragma solidity ^0.4.24;\nimport \"./Ownable.sol\";\nimport \"./Hack721Token.sol\";\n// This is just a simple example of a coin-like contract.\n// It is not standards compatible and cannot be expected to talk to other\n// coin/token contracts. If you want to create a standards-compliant\n// token, see: https://github.com/ConsenSys/Tokens. Cheers!\ncontract CareGame is Ownable {\n\n    Hack721Token token;\n    uint ethAmount;\n    address receiver;\n    uint amountToUnlock;\n\n    function create (address addr, address p_receiver, uint p_ethAmount, uint p_amountToUnlock) public {\n        token = Hack721Token(addr);\n        receiver = p_receiver;\n        ethAmount = p_ethAmount;\n        amountToUnlock = p_amountToUnlock;\n    }\n\n    function checkAchievements() public {\n        if (token.balanceOf(address(this)) >= amountToUnlock) {\n            receiver.transfer(ethAmount);\n        }\n    }\n\n    function () public payable {}\n}\n",
@@ -141,7 +141,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 69,
-        "sourceUnit": 491,
+        "sourceUnit": 366,
         "src": "25:23:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -152,7 +152,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 69,
-        "sourceUnit": 405,
+        "sourceUnit": 280,
         "src": "49:28:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -166,10 +166,10 @@
               "id": 4,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 490,
+              "referencedDeclaration": 365,
               "src": "360:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$490",
+                "typeIdentifier": "t_contract$_Ownable_$365",
                 "typeString": "contract Ownable"
               }
             },
@@ -179,7 +179,7 @@
           }
         ],
         "contractDependencies": [
-          490
+          365
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -187,7 +187,7 @@
         "id": 68,
         "linearizedBaseContracts": [
           68,
-          490
+          365
         ],
         "name": "CareGame",
         "nodeType": "ContractDefinition",
@@ -202,7 +202,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Hack721Token_$404",
+              "typeIdentifier": "t_contract$_Hack721Token_$279",
               "typeString": "contract Hack721Token"
             },
             "typeName": {
@@ -210,10 +210,10 @@
               "id": 6,
               "name": "Hack721Token",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 404,
+              "referencedDeclaration": 279,
               "src": "375:12:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Hack721Token_$404",
+                "typeIdentifier": "t_contract$_Hack721Token_$279",
                 "typeString": "contract Hack721Token"
               }
             },
@@ -321,7 +321,7 @@
                       "referencedDeclaration": 7,
                       "src": "576:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Hack721Token_$404",
+                        "typeIdentifier": "t_contract$_Hack721Token_$279",
                         "typeString": "contract Hack721Token"
                       }
                     },
@@ -355,10 +355,10 @@
                         "name": "Hack721Token",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 404,
+                        "referencedDeclaration": 279,
                         "src": "584:12:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Hack721Token_$404_$",
+                          "typeIdentifier": "t_type$_t_contract$_Hack721Token_$279_$",
                           "typeString": "type(contract Hack721Token)"
                         }
                       },
@@ -372,13 +372,13 @@
                       "nodeType": "FunctionCall",
                       "src": "584:18:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Hack721Token_$404",
+                        "typeIdentifier": "t_contract$_Hack721Token_$279",
                         "typeString": "contract Hack721Token"
                       }
                     },
                     "src": "576:26:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Hack721Token_$404",
+                      "typeIdentifier": "t_contract$_Hack721Token_$279",
                       "typeString": "contract Hack721Token"
                     }
                   },
@@ -688,7 +688,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1785,
+                              "referencedDeclaration": 1660,
                               "src": "796:4:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_CareGame_$68",
@@ -747,7 +747,7 @@
                           "referencedDeclaration": 7,
                           "src": "772:5:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Hack721Token_$404",
+                            "typeIdentifier": "t_contract$_Hack721Token_$279",
                             "typeString": "contract Hack721Token"
                           }
                         },
@@ -758,7 +758,7 @@
                         "lValueRequested": false,
                         "memberName": "balanceOf",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 319,
+                        "referencedDeclaration": 723,
                         "src": "772:15:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -979,7 +979,7 @@
         "id": 2,
         "nodeType": "ImportDirective",
         "scope": 69,
-        "sourceUnit": 491,
+        "sourceUnit": 366,
         "src": "25:23:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -990,7 +990,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 69,
-        "sourceUnit": 405,
+        "sourceUnit": 280,
         "src": "49:28:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -1004,10 +1004,10 @@
               "id": 4,
               "name": "Ownable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 490,
+              "referencedDeclaration": 365,
               "src": "360:7:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Ownable_$490",
+                "typeIdentifier": "t_contract$_Ownable_$365",
                 "typeString": "contract Ownable"
               }
             },
@@ -1017,7 +1017,7 @@
           }
         ],
         "contractDependencies": [
-          490
+          365
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -1025,7 +1025,7 @@
         "id": 68,
         "linearizedBaseContracts": [
           68,
-          490
+          365
         ],
         "name": "CareGame",
         "nodeType": "ContractDefinition",
@@ -1040,7 +1040,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Hack721Token_$404",
+              "typeIdentifier": "t_contract$_Hack721Token_$279",
               "typeString": "contract Hack721Token"
             },
             "typeName": {
@@ -1048,10 +1048,10 @@
               "id": 6,
               "name": "Hack721Token",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 404,
+              "referencedDeclaration": 279,
               "src": "375:12:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Hack721Token_$404",
+                "typeIdentifier": "t_contract$_Hack721Token_$279",
                 "typeString": "contract Hack721Token"
               }
             },
@@ -1159,7 +1159,7 @@
                       "referencedDeclaration": 7,
                       "src": "576:5:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Hack721Token_$404",
+                        "typeIdentifier": "t_contract$_Hack721Token_$279",
                         "typeString": "contract Hack721Token"
                       }
                     },
@@ -1193,10 +1193,10 @@
                         "name": "Hack721Token",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 404,
+                        "referencedDeclaration": 279,
                         "src": "584:12:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Hack721Token_$404_$",
+                          "typeIdentifier": "t_type$_t_contract$_Hack721Token_$279_$",
                           "typeString": "type(contract Hack721Token)"
                         }
                       },
@@ -1210,13 +1210,13 @@
                       "nodeType": "FunctionCall",
                       "src": "584:18:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Hack721Token_$404",
+                        "typeIdentifier": "t_contract$_Hack721Token_$279",
                         "typeString": "contract Hack721Token"
                       }
                     },
                     "src": "576:26:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Hack721Token_$404",
+                      "typeIdentifier": "t_contract$_Hack721Token_$279",
                       "typeString": "contract Hack721Token"
                     }
                   },
@@ -1526,7 +1526,7 @@
                               "name": "this",
                               "nodeType": "Identifier",
                               "overloadedDeclarations": [],
-                              "referencedDeclaration": 1785,
+                              "referencedDeclaration": 1660,
                               "src": "796:4:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_contract$_CareGame_$68",
@@ -1585,7 +1585,7 @@
                           "referencedDeclaration": 7,
                           "src": "772:5:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Hack721Token_$404",
+                            "typeIdentifier": "t_contract$_Hack721Token_$279",
                             "typeString": "contract Hack721Token"
                           }
                         },
@@ -1596,7 +1596,7 @@
                         "lValueRequested": false,
                         "memberName": "balanceOf",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 319,
+                        "referencedDeclaration": 723,
                         "src": "772:15:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$_t_address_$returns$_t_uint256_$",
@@ -1803,5 +1803,5 @@
     }
   },
   "schemaVersion": "2.0.1",
-  "updatedAt": "2018-07-01T13:51:57.914Z"
+  "updatedAt": "2018-07-03T08:13:23.289Z"
 }

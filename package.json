@@ -15,7 +15,7 @@
     "dotenv": "^5.0.1",
     "ethereumjs-wallet": "^0.6.0",
     "truffle-wallet-provider": "0.0.5",
-    "zeppelin-solidity": "^1.8.0"
+    "zeppelin-solidity": "^1.10.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

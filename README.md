@@ -1,16 +1,41 @@
 # hack721
 
-ERC721 standard
 
+Hack721 is an ERC721 token and a Smartc
 
-truffle migrate --network ropsten --reset
+-----------------------
 
-cd script
+### Install truffle
 
-truffle exec caregame_contract.js --network ropsten
+```
+$ npm install -g truffle
+```
 
-truffle exec create_achievement.js --network ropsten
+### Compile
 
-truffle exec transfer_achievement.js --network ropsten
+```
+$ truffle compile
+```
 
-truffle exec check_achievement.js --network ropsten
+### Run test
+
+```
+$ truffle test
+```
+
+### Migrate to ropsten network
+
+```
+$ mv .env.example .env
+$ truffle migrate --network ropsten --reset
+```
+
+### Use CareGame contract
+
+```
+$ cd script
+$ truffle exec caregame_contract.js --network ropsten
+$ truffle exec create_achievement.js --network ropsten
+$ truffle exec transfer_achievement.js --network ropsten
+$ truffle exec check_achievement.js --network ropsten
+```
