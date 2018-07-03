@@ -1,7 +1,7 @@
 # hack721
 
 
-Hack721 is an ERC721 token and a Smartc
+Hack721 is an ERC721 token
 
 -----------------------
 
